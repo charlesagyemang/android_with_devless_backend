@@ -3,8 +3,9 @@ package com.example.pianoafrik.devlessbackend;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-
 import com.example.pianoafrik.devlessbackend.DevlessPackage.Devless;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DevlessActivity extends AppCompatActivity {
 
@@ -32,10 +33,9 @@ public class DevlessActivity extends AppCompatActivity {
             }
         });
 
-
         //Create data according to your fields
-        //Map<String, Object> data = new HashMap<>();
-        //data.put("name","finney nie");
+        Map<String, Object> data = new HashMap<>();
+        data.put("name","finney nie");
 
         //post data by running this function
         //devless.addData(data,tableName);
