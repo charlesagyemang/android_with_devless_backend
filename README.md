@@ -118,4 +118,4 @@ If this is done you've set develess up.  Its so simple!
   //that's all the data will be created and return an http response of ok
 ```
 
-## Things to note:  make sure your table name matches exactly with the one on the devless backend if its "Grocery" don't enter "grocery" and vice versa do things exactly how you did on the backend and you wont have any problems. More to come ie delete update etc. Bless you and keep enjoying devless its super fast and convenient.
+### NB: Make sure your table name matches exactly with the one on the devless backend if its "Grocery" don't enter "grocery" and vice versa do things exactly how you did on the backend and you wont have any problems. More to come ie delete update etc. Bless you and keep enjoying devless its super fast and convenient.
