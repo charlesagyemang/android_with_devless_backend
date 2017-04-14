@@ -18,7 +18,7 @@ Add a table and give it a name and add the fields of your choice save it and you
 
 ### NB Remember the service name, table name and token
 
-## All the above steps have to be follwed to arrive at the four things we will need for our android app to be able to talk to our devless backend. From this point I will break it in two parts that is adding devless to an already existing android app or creating one from scratch
+#### All the above steps have to be follwed to arrive at the four things we will need for our android app to be able to talk to our devless backend. From this point I will break it in two parts that is adding devless to an already existing android app or creating one from scratch
 
 # Adding Devless to an already existing project
 
