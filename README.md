@@ -80,7 +80,7 @@ set it up this way
 ```
 If this is done you've set develess up.  Its so simple!
 
-#### Lets make a query(get some stuff from our database in devless and load it into our app). You can do that with only the table name now lets see how its done.
+## Lets make a query(get some stuff from our database in devless and load it into our app). You can do that with only the table name now lets see how its done.
 #####  Requirements(tableName)
 #### Do it this way
 ```Java
@@ -98,7 +98,7 @@ If this is done you've set develess up.  Its so simple!
   });
 ```
 
-#### Let's post data into our database. You will need the tableName and some data to post lest do an example.
+## Let's post data into our database. You will need the tableName and some data to post lest do an example.
 
 ##### Requirements(tableName, data). NB data is in a form of Map<String, Object>.
 ##### Lets say we want to post {"name": "charles"} into our table in the backend assuming the only filed I our table is name. We will do it this way.
