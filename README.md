@@ -44,7 +44,6 @@ Enter android studio and Follow these steps.
 
 ![Alt text](/images/step3.png)
 
-![Alt text](/images/step4.png)
 
 ![Alt text](/images/step5.png)
 
