@@ -20,23 +20,14 @@ Add a table and give it a name and add the fields of your choice save it and you
 
 #### All the above steps have to be follwed to arrive at the four things we will need for our android app to be able to talk to our devless backend. From this point I will break it in two parts that is adding devless to an already existing android app or creating one from scratch
 
-# Adding Devless to an already existing project
+# Adding Devless to an already existing project/ Creating a new project
 
 ### Step One
 Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToPzFdRiXZVh2dE52R1VFemc "Title")  which contains the devless package and unzip it in your local
 
-
-### Step two
-Enter android studio and navigate to where your java projects are and paste the folder there. Thats it! you can bow start configuring and using the package which I will show you briefly after I do the walk through for those who want to set upfrom scratch
-
-
-# Adding devless to an android project from scratch
-
-### Step one
+### Step one(skip if project exist already)
 create a new project in android studio by following the wizard and choosing your preferences. Onve that is done go to step two.
 
-### Step One
-Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToPzFdRiXZVh2dE52R1VFemc "Title")  which contains the devless package and unzip it in your local
 
 ### Step two
 Enter android studio and Follow these steps.
