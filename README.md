@@ -36,7 +36,7 @@ Enter android studio and navigate to where your java projects are and paste the 
 create a new project in android studio by following the wizard and choosing your preferences. Onve that is done go to step two.
 
 ### Step One
-Download this zip file which contains the devless package and unzip it in your local
+Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToPzFdRiXZVh2dE52R1VFemc "Title")  which contains the devless package and unzip it in your local
 
 ### Step two
 Enter android studio and navigate to where your java projects are and paste the folder there. Thats it! you can bow start configuring and using the package which I will show you briefly after I do the walk through for those who want to set upfrom scratch
@@ -50,6 +50,7 @@ open your app build.gradle file and paste this code there under dependencies
   dependencies {
     ......
     compile 'com.mcxiaoke.volley:library:1.0.+'
+    compile project(":devless")
   }
 ```
 
