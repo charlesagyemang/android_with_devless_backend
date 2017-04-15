@@ -25,10 +25,8 @@ Go to the services tab and create a services tab and create a service. You can c
 Click on your service to take you to the service details page where you can add tables.
 Add a table and give it a name and add the fields of your choice save it and youre done.
 
-![Alt text](/images/devless/step6.png)
+![Alt text](/images/devless/step5.png)
 ![Alt text](/images/devless/step7.png)
-![Alt text](/images/devless/step8.png)
-![Alt text](/images/devless/step9.png)
 ![Alt text](/images/devless/step10.png)
 
 
