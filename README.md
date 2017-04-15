@@ -41,7 +41,15 @@ Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToP
 ### Step two
 Enter android studio and Follow these steps.
 
-![Alt text](/images/step1.png)
+![Alt text](/images/step5.png)
+
+![Alt text](/images/step6.png)
+
+![Alt text](/images/step7.png)
+
+![Alt text](/images/step8.png)
+
+![Alt text](/images/step9.png)
 
 ### Since we have both parts covered lets zzom straight into how to make our andorid app talk to our devless backend
 
