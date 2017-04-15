@@ -7,13 +7,29 @@ Sign up with devless and choose the onclick install and go through the process a
 Click on the app section in your dashboard and edit the details most importantly copy your token and
 save it somewhere we will come back to it
 
+![Alt text](/images/devless/step1.png)
+
+
 ### Step Three
 Go to the services tab and create a services tab and create a service. You can call your service anything.
+
+
+
+![Alt text](/images/devless/step2.png)
+![Alt text](/images/devless/step3.png)
+![Alt text](/images/devless/step4.png)
+
 
 
 ### Step Four
 Click on your service to take you to the service details page where you can add tables.
 Add a table and give it a name and add the fields of your choice save it and youre done.
+
+![Alt text](/images/devless/step6.png)
+![Alt text](/images/devless/step7.png)
+![Alt text](/images/devless/step8.png)
+![Alt text](/images/devless/step9.png)
+![Alt text](/images/devless/step10.png)
 
 
 ### NB Remember the service name, table name and token
@@ -31,20 +47,20 @@ create a new project in android studio by following the wizard and choosing your
 
 ### Step two
 Enter android studio and Follow these steps.
-![Alt text](/images/step2.png)
+![Alt text](/images/androider/step2.png)
 
-![Alt text](/images/step3.png)
+![Alt text](/images/androider/step3.png)
 
 
-![Alt text](/images/step5.png)
+![Alt text](/images/androider/step5.png)
 
-![Alt text](/images/step6.png)
+![Alt text](/images/androider/step6.png)
 
-![Alt text](/images/step7.png)
+![Alt text](/images/androider/step7.png)
 
-![Alt text](/images/step8.png)
+![Alt text](/images/androider/step8.png)
 
-![Alt text](/images/step9.png)
+![Alt text](/images/androider/step9.png)
 
 ### Since we have both parts covered lets zzom straight into how to make our andorid app talk to our devless backend
 
