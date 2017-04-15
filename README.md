@@ -39,7 +39,9 @@ create a new project in android studio by following the wizard and choosing your
 Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToPzFdRiXZVh2dE52R1VFemc "Title")  which contains the devless package and unzip it in your local
 
 ### Step two
-Enter android studio and navigate to where your java projects are and paste the folder there. Thats it! you can bow start configuring and using the package which I will show you briefly after I do the walk through for those who want to set upfrom scratch
+Enter android studio and Follow these steps.
+
+![Alt text](/images/step1.png)
 
 ### Since we have both parts covered lets zzom straight into how to make our andorid app talk to our devless backend
 
