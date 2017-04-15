@@ -40,6 +40,11 @@ Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToP
 
 ### Step two
 Enter android studio and Follow these steps.
+![Alt text](/images/step2.png)
+
+![Alt text](/images/step3.png)
+
+![Alt text](/images/step4.png)
 
 ![Alt text](/images/step5.png)
 
