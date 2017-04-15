@@ -4,7 +4,7 @@
 Sign up with devless and choose the onclick install and go through the process and get your devless backend runnin on heroku or on your local. I did mine on heroku.
 
 ### Step Two
-Click on the app section in your dashboard and edit the details most importantly cope your token and
+Click on the app section in your dashboard and edit the details most importantly copy your token and
 save it somewhere we will come back to it
 
 ### Step Three
@@ -23,7 +23,8 @@ Add a table and give it a name and add the fields of your choice save it and you
 # Adding Devless to an already existing project
 
 ### Step One
-Download this zip file which contains the devless package and unzip it in your local
+Download this zip file here which contains the devless package and unzip it in your local
+This is [an example](http://example.com/ "Title") with a title
 
 ### Step two
 Enter android studio and navigate to where your java projects are and paste the folder there. Thats it! you can bow start configuring and using the package which I will show you briefly after I do the walk through for those who want to set upfrom scratch
