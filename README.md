@@ -5,16 +5,16 @@ Read more about setting up devless [here](docs/devless-signup.md)
 # USAGE
 
 ### Create an instance of the Devless class in your activity and initialize it with your details. You need things to create an instance of the devless class.
-###### Url of you app
-###### Service name
-###### Token
+*Url of you app*
+*Service name*
+*Token*
 
 ```Java
 /*
 set it up this way
-  String appUrl = put your app url here;
-  String serviceName = put your service name here;
-  String devlessToken = put your token here;
+  String appUrl = app url here;
+  String serviceName = service name here;
+  String devlessToken = token here;
 
   Devless devless = new Devless(devlessToken, appUrl, serviceName, this )  
 */
@@ -26,9 +26,11 @@ set it up this way
 
   Devless devless = new Devless(devlessToken, appUrl, serviceName, this );
 ```
-If this is done you've set develess up.  Its so simple!
+If this is done you've set Devless up.  Its so simple!
 
-** Lets make a query(get some stuff from our database in devless and load it into our app). You can do that with only the table name now lets see how its done. **
+* Lets make a query(get some stuff from our database in devless and load it into our  app). You can do that with only the table name now lets see how its done.
+*
+
 #####  Requirements(tableName)
 #### Do it this way
 ```Java
