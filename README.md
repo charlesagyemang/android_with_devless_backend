@@ -1,93 +1,20 @@
-# A detailed example of using Devless As your backend in an Android App
+### This package lets you run a [devless](www.devless.io) backend with your android app
 
-### Step One
-Sign up with devless and choose the onclick install and go through the process and get your devless backend runnin on heroku or on your local. I did mine on heroku.
-
-### Step Two
-Click on the app section in your dashboard and edit the details most importantly copy your token and
-save it somewhere we will come back to it
-
-![Alt text](/images/devless/step1.png)
-
-
-### Step Three
-Go to the services tab and create a services tab and create a service. You can call your service anything.
-
-
-
-![Alt text](/images/devless/step2.png)
-![Alt text](/images/devless/step3.png)
-![Alt text](/images/devless/step4.png)
-
-
-
-### Step Four
-Click on your service to take you to the service details page where you can add tables.
-Add a table and give it a name and add the fields of your choice save it and youre done.
-
-![Alt text](/images/devless/step5.png)
-![Alt text](/images/devless/step7.png)
-![Alt text](/images/devless/step10.png)
-
-
-### NB Remember the service name, table name and token
-
-#### All the above steps have to be follwed to arrive at the four things we will need for our android app to be able to talk to our devless backend. From this point I will break it in two parts that is adding devless to an already existing android app or creating one from scratch
-
-# Adding Devless to an already existing project/ Creating a new project
-
-### Step One
-Download this zip file [here](https://drive.google.com/drive/u/0/folders/0B3FToPzFdRiXZVh2dE52R1VFemc "Title")  which contains the devless package and unzip it in your local
-
-### Step one(skip if project exist already)
-create a new project in android studio by following the wizard and choosing your preferences. Onve that is done go to step two.
-
-
-### Step two
-Enter android studio and Follow these steps.
-![Alt text](/images/androider/step2.png)
-
-![Alt text](/images/androider/step3.png)
-
-
-![Alt text](/images/androider/step5.png)
-
-![Alt text](/images/androider/step6.png)
-
-![Alt text](/images/androider/step7.png)
-
-![Alt text](/images/androider/step8.png)
-
-![Alt text](/images/androider/step9.png)
-
-### Since we have both parts covered lets zzom straight into how to make our andorid app talk to our devless backend
-
-
-### Step Three
-open your app build.gradle file and paste this code there under dependencies
-```Java
-  dependencies {
-    ......
-    compile 'com.mcxiaoke.volley:library:1.0.+'
-    compile project(":devless")
-  }
-```
-
-### Step Four
-Sync the project and boom your done. Lets go straight to the usage
-
+Read more about setting up devless [here](docs/devless-signup.md) 
 
 # USAGE
+
 ### Create an instance of the Devless class in your activity and initialize it with your details. You need things to create an instance of the devless class.
-#### Url of you app
-#### Service name
-#### Token
+*Url of you app*
+*Service name*
+*Token*
+
 ```Java
 /*
 set it up this way
-  String appUrl = put your app url here;
-  String serviceName = put your service name here;
-  String devlessToken = put your token here;
+  String appUrl = app url here;
+  String serviceName = service name here;
+  String devlessToken = token here;
 
   Devless devless = new Devless(devlessToken, appUrl, serviceName, this )  
 */
@@ -99,9 +26,11 @@ set it up this way
 
   Devless devless = new Devless(devlessToken, appUrl, serviceName, this );
 ```
-If this is done you've set develess up.  Its so simple!
+If this is done you've set Devless up.  Its so simple!
 
-## Lets make a query(get some stuff from our database in devless and load it into our app). You can do that with only the table name now lets see how its done.
+* Lets make a query(get some stuff from our database in devless and load it into our  app). You can do that with only the table name now lets see how its done.
+*
+
 #####  Requirements(tableName)
 #### Do it this way
 ```Java
