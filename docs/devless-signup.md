@@ -35,7 +35,7 @@ Add a table and field of your choosing by clicking on your generated service
 ### Devless backend with existing App
 
 ### Step One
-Download and unzip this [file](https://drive.google.com/drive/u/0/folders/0B3FToPzFdRiXZVh2dE52R1VFemc "Title")  which contains the devless package into your java project
+Download the arr file [here](https://raw.github.com/charlesagyemang/Devless_Android_SDK) which contains the devless package into your java project
 
 ### Step two
 Enter android studio and Follow these steps.
